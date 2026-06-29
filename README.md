@@ -3,7 +3,7 @@ A local implementation of the ZStreak scanner page. Setup for this script is min
 
 The scanning page is accessed by running server.py:
 
-Valid calls:
+# Valid calls:  
 python3 server.py 20251001 --indices 1-100  
 python3 server.py 20251001 --indices 15-1500  
 python3 server.py 20251001 --indices 1,5,42,100  
