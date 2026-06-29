@@ -200,7 +200,7 @@ def main():
         sys.exit(1)
 
     NIGHT = args.night
-    CUTOUTS_DIR = os.path.join(BASE_DIR, NIGHT)
+    CUTOUTS_DIR = os.path.join(BASE_DIR, "cutouts", NIGHT)
 
     if not os.path.isdir(CUTOUTS_DIR):
         print(f"Error: night directory not found: {CUTOUTS_DIR}", file=sys.stderr)
